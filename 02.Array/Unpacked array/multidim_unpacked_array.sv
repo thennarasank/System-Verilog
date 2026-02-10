@@ -8,5 +8,4 @@ module multidim_unpacked_array;
     foreach (king[i, j])
       $display("king[%0d][%0d] = %0d", i, j,king[i][j]);
   end
-
-endmodule
+  endmodule
