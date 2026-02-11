@@ -1,7 +1,6 @@
 module bit_to_byte_casting();
   byte a;
   bit [3:0]b;
-  
   initial begin
     b = 4'b1010;
     $display("\nBefore Casting\n");
