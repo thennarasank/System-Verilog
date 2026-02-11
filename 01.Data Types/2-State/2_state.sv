@@ -4,20 +4,16 @@ module data_type_2_states;
   shortint c;	
   int d;	
   longint e;		
-    
   initial begin
-
   	a = 1'b1;
   	b = 111;
   	c = 11511;
     d = 21122003;
 	e = 123123123;
-    
-    $display("\nAfter initialize value of bit 	 = %b", a);
-    $display("After initialize value of byte 	   = %0d(%b)", b, b);
-    $display("After initialize value of int 	   = %0d(%b)", c, c);
+    $display("\nAfter initialize value of bit = %b", a);
+    $display("After initialize value of byte = %0d(%b)", b, b);
+    $display("After initialize value of int = %0d(%b)", c, c);
     $display("After initialize value of shortint = %0d(%b)", d, d);
-    $display("After initialize value of longint  = %0d(%b)", e, e);
-    
+    $display("After initialize value of longint = %0d(%b)", e, e);  
   end
 endmodule
