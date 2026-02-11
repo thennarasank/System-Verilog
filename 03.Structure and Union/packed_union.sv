@@ -1,10 +1,8 @@
-module packed_union();
-  
+module packed_union();  
   typedef union packed{
     logic [7:0] number;
     byte id;
-  }alpha;
-  
+  }alpha; 
   initial begin
     alpha a1;
     a1.number = 'd123;
@@ -13,6 +11,5 @@ module packed_union();
     $display("a1.number: %0d",a1.number);
     $display("a1.id: %0d",a1.id);
     $display("Size of a1: %0d",$bits(a1));
-  end
-  
+  end 
 endmodule
