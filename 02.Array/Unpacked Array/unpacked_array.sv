@@ -6,7 +6,6 @@ module unpacked_array;
     data[1] = 8'h22;
     data[2] = 8'h33;
     data[3] = 8'h44;
-
   foreach (data[i])
       $display("data[%0d] = %h", i, data[i]);
   foreach (abc[i])
